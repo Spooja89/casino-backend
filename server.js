@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:3000", // Local dev frontend
-  "https://casino-game-f.vercel.app/" // Vercel frontend
+  "https://casino-front-five.vercel.app" // Vercel frontend
 ];
 
 app.use(cors({
